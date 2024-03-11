@@ -1,23 +1,9 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
-import {SafeAreaView, ScrollView} from 'react-native';
 
-import {Header} from 'react-native/Libraries/NewAppScreen';
+import Navigation from '@RNExploration/Navigation';
 
 function App(): React.JSX.Element {
-  return (
-    <SafeAreaView>
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <Header />
-      </ScrollView>
-    </SafeAreaView>
-  );
+  return <Navigation />;
 }
 
 export default App;
