@@ -10,7 +10,7 @@ export const Home = () => {
   const renderCards = () => allScreen.map(name => <Text>{name}</Text>);
   return (
     <>
-      <SwipeCard />
+      <SwipeCard style={styles.card} />
       <Text> React Native - Exploration </Text>
       {renderCards()}
     </>
@@ -19,4 +19,4 @@ export const Home = () => {
 
 export default Home;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({card: {}});
