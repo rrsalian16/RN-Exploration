@@ -4,7 +4,7 @@ module.exports = {
   bracketSpacing: false,
   singleQuote: true,
   trailingComma: 'all',
-  importOrder: ["^@RNExploration/(.*)$", "^[./]"],
+  importOrder: ['^@RNExploration/(.*)$', '^[./]'],
   importOrderSeparation: true,
-  importOrderCaseInsensitive: true
+  importOrderCaseInsensitive: true,
 };
